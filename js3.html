@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>JS Demo3 </title>
+        <script type="text/javascript">
+            function greetings()
+            {
+                alert("Welcome to my website");
+            }
+            function display()
+            {
+                document.getElementById("p1").innerHTML="Hello from Javascript";
+            }
+        </script>
+    </head>
+    <body onload="greetings();">
+    <p id="p1">This is a text from HTML</p>
+    <input type="button" onclick='document.getElementById("p1").innerHTML="Hello from JavaScript";'value="Click me"/>
+    </body>
+</html>
